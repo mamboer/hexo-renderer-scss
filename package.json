@@ -1,0 +1,30 @@
+{
+  "name": "hexo-renderer-scss",
+  "version": "1.0.0",
+  "description": "Yet Another Sass renderer plugin for Hexo",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/o2team/hexo-renderer-scss.git"
+  },
+  "keywords": [
+    "hexo",
+    "sass",
+    "scss",
+    "renderer"
+  ],
+  "author": {
+    "name": "o2team",
+    "email": "o2team@qq.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "hexo": ">= 3.0.0"
+  },
+  "dependencies": {
+    "node-sass": "^3.4.2"
+  },
+  "bugs": {
+    "url": "https://github.com/o2team/hexo-renderer-scss/issues"
+  }
+}

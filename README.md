@@ -1,2 +1,67 @@
-# hexo-generator-scss
-Yet Another Sass renderer plugin for Hexo.
+Yet another [Sass] renderer plugin for [Hexo]
+=================================
+
+> A hexo plugin for node-sass, fully compatible with hexo 3.x
+  Inspired by [hexo-renderer-stylus](https://github.com/hexojs/hexo-renderer-stylus) and [hexo-renderer-sass](https://github.com/knksmith57/hexo-renderer-sass)
+  
+## Features
+
+1. Use lastest API provided by hexo 3.x
+2. Export some handy hexo related global functions to the Sass compiler context
+
+  - 'hexo-config($key)'
+
+    Now you can use `hexo-config` function in your 'scss' files to access your hexo app's site configuration.
+
+    ```
+    $highlight_theme: hexo-config('highlight_theme')
+    ```
+
+  - 'hexo-theme-config'
+
+    Similar to the `hexo-config`, you can use `hexo-theme-config` to access your hexo theme's configuration.
+
+## Install
+
+```sh
+$ npm install --save hexo-renderer-scss
+```
+
+## Config
+
+Anything specified under the key `node_sass` in your `_config.yml` files will
+be [passed directly] to the `sass.render()` call. Check out the [node sass options docs]
+for all available settings.
+
+### _config.yml
+
+```yaml
+node_sass:
+  debug: false
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
+```
+
+### Inheritance
+
+The config object passed to node sass is constructed by merging properties from
+the following locations using a least-specific-first order:
+
+1. Hardcoded Defaults (`{outputStyle: 'nested',sourceComments: false}`)
+2. Theme specific `_config.yml`
+3. Blog root `_config.yml`
+
+
+## ♥︎
+
+Questions, comments, concerns? --> [@o2team](https://twitter.com/o2circle).
+
+
+[Hexo]:                   http://hexo.io
+[Sass]:                   http://sass-lang.com/
+[node-sass]:              https://github.com/andrew/node-sass
+[passed directly]:        index.js:#L22
+[node sass options docs]: https://github.com/sass/node-sass#options
+[hexo-renderer-sass]:     https://github.com/knksmith57/hexo-renderer-sass
+
