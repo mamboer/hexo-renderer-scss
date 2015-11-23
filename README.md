@@ -9,7 +9,7 @@ Yet another [Sass] renderer plugin for [Hexo]
 1. Use lastest API provided by hexo 3.x
 2. Export some handy hexo related global functions to the Sass compiler context
 
-  - 'hexo-config($key)'
+  - hexo-config($key)
 
     Now you can use `hexo-config` function in your 'scss' files to access your hexo app's site configuration.
 
@@ -17,7 +17,7 @@ Yet another [Sass] renderer plugin for [Hexo]
     $highlight_theme: hexo-config('highlight_theme')
     ```
 
-  - 'hexo-theme-config'
+  - hexo-theme-config($key)
 
     Similar to the `hexo-config`, you can use `hexo-theme-config` to access your hexo theme's configuration.
 
