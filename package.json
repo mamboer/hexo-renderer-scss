@@ -22,7 +22,7 @@
     "hexo": ">= 3.0.0"
   },
   "dependencies": {
-    "node-sass": "^3.4.2"
+    "node-sass": "^3.7.0"
   },
   "bugs": {
     "url": "https://github.com/o2team/hexo-renderer-scss/issues"
