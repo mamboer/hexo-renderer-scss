@@ -5,7 +5,7 @@
   "main": "index",
   "repository": {
     "type": "git",
-    "url": "git://github.com/o2team/hexo-renderer-scss.git"
+    "url": "git://github.com/mamboer/hexo-renderer-scss.git"
   },
   "keywords": [
     "hexo",
@@ -14,8 +14,8 @@
     "renderer"
   ],
   "author": {
-    "name": "o2team",
-    "email": "o2team@qq.com"
+    "name": "mamboer",
+    "email": "mamboer@gmail.com"
   },
   "license": "MIT",
   "engines": {
@@ -25,6 +25,6 @@
     "node-sass": "^3.8.0"
   },
   "bugs": {
-    "url": "https://github.com/o2team/hexo-renderer-scss/issues"
+    "url": "https://github.com/mamboer/hexo-renderer-scss/issues"
   }
 }
