@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "node-sass": "^4.5.3",
-    "node-sass-magic-importer": "^4.1.5"
+    "node-sass-magic-importer": "^5.0.0-alpha.14"
   },
   "bugs": {
     "url": "https://github.com/mamboer/hexo-renderer-scss/issues"
