@@ -29,7 +29,7 @@
     "url": "https://github.com/mamboer/hexo-renderer-scss/issues"
   },
   "scripts": {
-    "test": "echo "Error: no test specified" && exit 0",
+    "test": "echo 'Error: no test specified' && exit 0",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
