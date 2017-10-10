@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-scss",
-  "version": "0.0.0-released",
+  "version": "0.0.0-semantically-released",
   "description": "Yet Another Sass renderer plugin for Hexo",
   "main": "index",
   "repository": {
@@ -29,6 +29,7 @@
     "url": "https://github.com/mamboer/hexo-renderer-scss/issues"
   },
   "scripts": {
+    "test": "echo "Error: no test specified" && exit 0",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
