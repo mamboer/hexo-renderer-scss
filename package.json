@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-scss",
-  "version": "0.0.0-development",
+  "version": "0.0.0-released",
   "description": "Yet Another Sass renderer plugin for Hexo",
   "main": "index",
   "repository": {
