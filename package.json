@@ -30,15 +30,12 @@
   },
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 0",
-    "semantic-release": "semantic-release -e ./release.config.js",
+    "semantic-release": "semantic-release",
     "semantic-release-test": "semantic-release --dry-run --no-ci -e ./release-local.config.js",
     "semantic-release-local": "semantic-release --no-ci -e ./release-local.config.js",
     "travis-deploy-once": "travis-deploy-once"
   },
   "devDependencies": {
-    "@semantic-release/commit-analyzer": "^5.0.2",
-    "@semantic-release/release-notes-generator": "^6.0.6",
-    "conventional-changelog-eslint": "^1.0.5",
     "semantic-release": "^15.1.3",
     "travis-deploy-once": "^4.4.1"
   }
