@@ -60,6 +60,7 @@ More about the usage of `semantic-release`, pls read these posts:
 - https://github.com/JPeer264/node-semantic-git-commit-cli
 - https://github.com/semantic-release/cli
 - https://blog.greenkeeper.io/introduction-to-semantic-release-33f73b117c8
+- https://medium.com/datreeio/semantic-release-survival-guide-6519cc5ea1a8
 
 ## ♥︎
 

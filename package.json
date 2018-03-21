@@ -5,7 +5,7 @@
   "main": "index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mamboer/hexo-renderer-scss.git"
+    "url": "git@github.com:mamboer/hexo-renderer-scss.git"
   },
   "keywords": [
     "hexo",
@@ -31,6 +31,7 @@
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 0",
     "semantic-release": "semantic-release -e ./release.config.js",
+    "semantic-release-local": "semantic-release -e ./release.config.js -d --debug",
     "travis-deploy-once": "travis-deploy-once"
   },
   "devDependencies": {
