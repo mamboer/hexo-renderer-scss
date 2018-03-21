@@ -52,15 +52,31 @@ the following locations using a least-specific-first order:
 2. Theme specific `_config.yml`
 3. Blog root `_config.yml`
 
-## About Release
+## About Releasing
 
-The project will be released automatically via [semantic-release]()
+The project will be released automatically via [semantic-release](https://github.com/semantic-release/cli) after being committed.
+
+### Test releasing locally
+
+```
+npm run semantic-release-test
+```
+
+### Do releasing locally (not recommended!)
+
+You should add a [`.env`](https://ollie.relph.me/blog/running-semantic-release-locally/) file to the project root firstly.
+
+```
+npm run semantic-release-local
+```
+
 More about the usage of `semantic-release`, pls read these posts: 
 
 - https://github.com/JPeer264/node-semantic-git-commit-cli
 - https://github.com/semantic-release/cli
 - https://blog.greenkeeper.io/introduction-to-semantic-release-33f73b117c8
 - https://medium.com/datreeio/semantic-release-survival-guide-6519cc5ea1a8
+- https://ollie.relph.me/blog/running-semantic-release-locally/
 
 ## ♥︎
 
@@ -73,4 +89,3 @@ Questions, comments, concerns? --> [@o2team](https://twitter.com/o2circle).
 [passed directly]:        index.js:#L22
 [node sass options docs]: https://github.com/sass/node-sass#options
 [hexo-renderer-sass]:     https://github.com/knksmith57/hexo-renderer-sass
-
