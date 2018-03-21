@@ -31,7 +31,8 @@
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 0",
     "semantic-release": "semantic-release -e ./release.config.js",
-    "semantic-release-local": "semantic-release -e ./release.config.js -d --debug",
+    "semantic-release-test": "semantic-release --dry-run --no-ci -e ./release-local.config.js",
+    "semantic-release-local": "semantic-release --no-ci -e ./release-local.config.js",
     "travis-deploy-once": "travis-deploy-once"
   },
   "devDependencies": {
